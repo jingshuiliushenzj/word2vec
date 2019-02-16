@@ -1,0 +1,8 @@
+英文评论数据集的word2vec词向量训练：
+1、安装nltk、gensim等包。
+word2vec_main.py
+2、执行data_process()函数，预处理。
+3、执行train_word2vec_model("data/review_sentences.txt", "data/word2vec.model", "data/word2vec.vector")，生成word2vec模型和向量文件
+4、测试test_model("data/word2vec.model")
+
+数据集下载：https://github.com/rekiksab/Yelp-Data-Challenge-2013/blob/master/yelp_challenge/yelp_phoenix_academic_dataset/yelp_academic_dataset_review.json
